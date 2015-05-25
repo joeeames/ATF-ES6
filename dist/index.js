@@ -13,12 +13,10 @@ console.clear();
 /*
 npm install gulp gulp-babel
 
-
-
-
-
-
 */
+
+var message = 'gulp is running, still';
+console.log(message);
 
 // fat arrow
 //--------------------

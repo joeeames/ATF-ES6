@@ -7,12 +7,21 @@ console.clear();
 /*
 npm install gulp gulp-babel
 
-
-
-
-
-
 */
+
+// add watch to gulpfile then this:
+let message = "gulp is running, still";
+// add default task to gulpfile then this:
+//let message = "gulp is running, still";
+console.log(message);
+
+// Webpack!
+//-------------
+// npm install webpack webpack-dev-server babel-loader
+// create webpack.config.js
+// add npm start script
+// start it up
+// go to http://localhost:8080/webpack-dev-server/
 
 
 
@@ -178,6 +187,7 @@ class Http {
 
 
 // module systems
+//------------------------------
 // make a new course.js file.  create a course class
 
 // start with just importing course
@@ -193,6 +203,13 @@ class Http {
 // import {Max as CourseMaxStudents, Course} from './course.js'
 // console.log(CourseMaxStudents);
 
+
+// Iterators
+//---------------------
+
+
+// Set & Map
+//--------------------
 
 
 

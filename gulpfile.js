@@ -8,5 +8,8 @@ gulp.task('transpile', function () {
 });
 
 gulp.task('transpile-watch', function() {
+  gulp.run(['transpile'])
   gulp.watch(['app/**/*.js'], ['transpile']);
 });
+
+gulp.task('default', ['transpile-watch'])
